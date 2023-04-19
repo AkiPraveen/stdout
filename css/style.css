@@ -52,3 +52,12 @@ a.foot {
 }
 
 /*blocks*/
+
+/*misc*/
+::selection {
+    background-color: yellow;
+}
+
+::-moz-selection {
+    background-color: yellow;
+}
