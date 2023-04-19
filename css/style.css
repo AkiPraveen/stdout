@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300;400;700&display=swap');
+
+/*typography*/
+h1.m {
+    font-family: "Fira Code", monospace;
+    font-weight: 300;
+}
+h2.m {
+    font-family: "Fira Code", monospace;
+    font-weight: 300;
+}
+h3.m {
+    font-family: "Fira Code", monospace;
+    font-weight: 300;
+}
+p.m {
+    font-family: "Fira Code", monospace;
+}
+
+span.light {
+    color: #DDDDDD;
+}
+
+a.link {
+    text-underline-offset: 8px;
+}
+a.anch {
+    text-decoration: none;
+}
+a.lh {
+    text-decoration: none;
+    color: #DEDEDE;
+}
+
+
+li.post {
+    font-family: "Fira Code", "monospace";
+    font-weight: 300;
+}
+
+p.foot {
+    margin-top: 16px;
+    font-family: "Fira Code", "monospace";
+    font-weight: 300;
+    color: #DEDEDE;
+}
+a.foot {
+    font-family: "Fira Code", "monospace";
+    font-weight: 300;
+    color: #DEDEDE;
+    text-underline-offset: 8px;
+}
+
+/*blocks*/
