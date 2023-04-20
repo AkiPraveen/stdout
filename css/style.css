@@ -5,6 +5,9 @@ h1.m {
     font-family: "Fira Code", monospace;
     font-weight: 300;
 }
+h1.pt {
+    margin-bottom:0;
+}
 h2.m {
     font-family: "Fira Code", monospace;
     font-weight: 300;
@@ -16,6 +19,11 @@ h3.m {
 p.m {
     font-family: "Fira Code", monospace;
 }
+small.m {
+    font-family: "Fira Code", monospace;
+    font-weight: 300;
+    color: #DDDDDD;
+}
 
 span.light {
     color: #DDDDDD;
@@ -23,6 +31,10 @@ span.light {
 
 a.link {
     text-underline-offset: 8px;
+}
+a.st {
+   text-decoration: none;
+    color: gray;
 }
 a.anch {
     text-decoration: none;
@@ -52,6 +64,13 @@ a.foot {
 }
 
 /*blocks*/
+marquee.m {
+    font-family: "Fira Code", "monospace";
+    background-color: #EEEEEE;
+    color: gray;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
 
 /*misc*/
 ::selection {
@@ -60,4 +79,14 @@ a.foot {
 
 ::-moz-selection {
     background-color: yellow;
+}
+
+.sideways-text {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    font-size: 20px;
 }
