@@ -90,3 +90,9 @@ marquee.m {
     white-space: nowrap;
     font-size: 20px;
 }
+
+@media (pointer:none), (pointer:coarse) {
+    .m {
+        font-size: 1.7em;
+    }
+}
