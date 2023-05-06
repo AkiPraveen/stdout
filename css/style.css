@@ -95,6 +95,8 @@ img {
     width: 40%;
     height: auto;
     margin-left: 30%;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 @media (pointer:none), (pointer:coarse) {
@@ -104,5 +106,7 @@ img {
     img {
         width: 100%;
         height: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 }
